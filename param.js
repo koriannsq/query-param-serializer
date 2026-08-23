@@ -1,0 +1,1 @@
+function serialize(o) { return new URLSearchParams(o).toString(); } module.exports = { serialize };
